@@ -14,7 +14,8 @@ pipeline {
 
     stage('Make Container') {
       steps {
-             sh "docker build -t employeeservices"
+           //  sh "docker build -t employeeservices"
+           echo 'executed my containter stage'
       }
     }
   }
